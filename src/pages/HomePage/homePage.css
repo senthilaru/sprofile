@@ -1,0 +1,43 @@
+body{
+    background-color: blanchedalmond;
+    width: 100%;
+}
+
+.container{
+    padding: 30px;
+    background-color: black;
+}
+
+a {
+    padding: 20px;
+    text-decoration: none;
+    background-color: brown;
+    color: white;
+    transition: background-color 500ms ease-out 100ms
+
+}
+
+a:hover{
+   background-color: cadetblue;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    padding: 20px;
+    left: 300px;
+    border-radius: 15%;
+    transition: width 2s, height 2s, opacity 2s, transform 500ms;
+    opacity: .2;
+    transform-origin: 50 50;
+}
+
+.box:hover {
+    opacity: 1;
+}
+
+.profile {
+    width: 100px;
+    height: 100px;
+}
