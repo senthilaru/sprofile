@@ -1,3 +1,7 @@
+# How to start
+``` npm install ```
+``` npm start ```
+
 # sprofile
 React and redux basic flow
 
